@@ -28,7 +28,7 @@ window.onload = async () => {
       const result = await response.json();
       responseEl.textContent = JSON.stringify(result, null, 2);
     } catch (err) {
-      responseEl.textContent = "Error: Could not reach server.";
+      responseEl.textContent = "Error: Could not reach server!.";
     }
   };
 };
